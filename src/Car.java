@@ -7,11 +7,11 @@ public class Car {
 
     /**
      * Creates a Car with a licensePlate and color
+     *
      * @param licensePlate Accepts a String to represent a licensePlate
-     * @param color Accepts a String to represent a color
+     * @param color        Accepts a String to represent a color
      */
-    public Car(String licensePlate, String color)
-    {
+    public Car(String licensePlate, String color) {
         this.licensePlate = licensePlate;
         this.color = color;
     }
@@ -25,7 +25,7 @@ public class Car {
     }
 
     public String getColor() {
-        return color;
+        return this.color;
     }
 
     public void setColor(String color) {
@@ -33,8 +33,7 @@ public class Car {
     }
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         return this.licensePlate + " " + this.color;
     }
 }

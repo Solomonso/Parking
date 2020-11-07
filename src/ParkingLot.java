@@ -13,8 +13,8 @@ public class ParkingLot {
     /**
      * Creates a parkingLot
      *
-     * @param address of the parkingLot
-     * @param asphaltColor color the parkingLot
+     * @param address      of the parkingLot.
+     * @param asphaltColor color the parkingLot.
      */
     public ParkingLot(String address, String asphaltColor) {
         this.address = address;
@@ -24,6 +24,7 @@ public class ParkingLot {
 
     /**
      * This method returns the address in the parking lot.
+     *
      * @return Return a String.
      */
     public String getAddress() {
@@ -32,6 +33,7 @@ public class ParkingLot {
 
     /**
      * This method returns the asphalt color
+     *
      * @return Return a String.
      */
     public String getAsphaltColor() {
@@ -40,6 +42,7 @@ public class ParkingLot {
 
     /**
      * This method gets all the car in the parking lot
+     *
      * @return Returns cars in the parking lot
      */
     public Car[][] getCarsInParkingLot() {
@@ -47,7 +50,7 @@ public class ParkingLot {
     }
 
     /**
-     * This method parks a car on the first available spot in the parking lot and the car gets returned
+     * This method parks a car on the first available spot in the parking lot and the car gets returned.
      *
      * @param car Accepts a car object.
      */
@@ -90,8 +93,8 @@ public class ParkingLot {
     /**
      * The methods checks if a car space is taken or not in the parking lot.
      *
-     * @param row    accept an integer to represent the row of the 2d array.
-     * @param column accept an integer to represent the column of the 2d array.
+     * @param row    Accept an integer to represent the row of the 2d array.
+     * @param column Accept an integer to represent the column of the 2d array.
      * @return Returns a string that indicate if the parking Garage is full or occupied.
      */
     public String freeSpotInParkingLot(int row, int column) {

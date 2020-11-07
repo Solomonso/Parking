@@ -11,7 +11,8 @@ public class ParkingLane {
     /**
      * Creates a Parking Lane
      *
-     * @param streetName accepts a string to represent the name of the street
+     * @param streetName accepts a string to represent the name of the street.
+     * Initialize the car array.
      */
     public ParkingLane(String streetName) {
         this.streetName = streetName;
@@ -44,16 +45,14 @@ public class ParkingLane {
     }
 
     /**
-     *
      * @return Returns the cars in the ParkingLane.
      */
-    public Car[] getCars()
-    {
+    public Car[] getCars() {
         return this.cars;
     }
 
     /**
-     * This method removes a car from a parking lane base on the license plate number.
+     * This method removes a car from a parking lane base on the license plate number and the car gets returned.
      *
      * @param licensePlate Accepts a string to represent the license plate number for the car.
      */
@@ -74,10 +73,10 @@ public class ParkingLane {
     }
 
     /**
-     * This method checks if there is a free spot in the parking lane
+     * This method checks if there is a free spot in the parking lane.
      *
-     * @param index Accepts an integer to represent the index of the array
-     * @return Returns a string that represent if the parking lane is free or occupied
+     * @param index Accepts an integer to represent the index of the array.
+     * @return Returns a string that represent if the parking lane is free or occupied.
      */
     public String freeSpot(int index) {
         String result = "";
